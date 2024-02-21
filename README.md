@@ -45,7 +45,12 @@ git init
 git add .
 git commit -m "first commit"
 git branch -M main
+<!--
 git remote add origin http://github.com/Danielnaor/List-GitHub-Repository.git
+ 
+-->
+
+git remote add origin git@github.com:Danielnaor/List-GitHub-Repository.git
 git push -u origin main
 
 git pull origin main
